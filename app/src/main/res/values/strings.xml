@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">NewsApp</string>
+    <string name="movies_fragment">Movies</string>
+    <string name="fashion_fragment">Fashion</string>
+    <string name="models_fragment">Models</string>
+    <string name="local_fragment">Local</string>
+    <string name="no_news">No News</string>
+</resources>

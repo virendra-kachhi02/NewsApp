@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="220dp"
+    android:layout_marginTop="15dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_news"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/square_fill"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="News"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/square_blank"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="Sports"
+            android:textColor="@color/splash"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/cloud_img">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_city"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                android:text="Banglore"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tv_weather"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                android:text="Scattered Cloud"
+                android:textColor="@color/white"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/tv_temp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                android:text="60º"
+                android:textColor="@color/white"
+                android:textSize="35dp"
+               />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:padding="15dp"
+            android:text="Wed, 26 Apr 2018"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <TextView
+                android:id="@+id/tv_max"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Max : 27"
+                android:textColor="@color/white"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/tv_min"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Min : 25"
+                android:textColor="@color/white"
+                android:textSize="15dp" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>
